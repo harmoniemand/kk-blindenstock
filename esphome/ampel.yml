@@ -1,0 +1,11 @@
+esphome:
+  name: ibeacon_001
+  platform: esp32
+  board: esp32doit-devkit-v1
+
+  platformio_options:
+    upload_speed: 115200
+
+esp32_ble_beacon:
+  type: iBeacon
+  uuid: 'c29ce823-e67a-4e71-bff2-abaa32e77a98'
